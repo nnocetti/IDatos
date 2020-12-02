@@ -17,7 +17,7 @@ Algo a destacar de los conjuntos a trabajar, es que todos ellos constan de dicci
 
 Los datos a utilizar en el trabajo fueron obtenidos del portal https://catalogodatos.gub.uy/ dentro de la categoría Desarrollo Social. Específicamente relacionan hogares con su situación de tenencia, nivel de ingresos, entre otros. A continuación, detallamos los conjuntos de datos:
 
-C1. Relación cuota de compra o cuota alquiler de la vivienda e ingresos del hogar según departamento. Total país.
+#### C1. Relación cuota de compra o cuota alquiler de la vivienda e ingresos del hogar según departamento. Total país.
 
 Descripción de metadatos:
 
@@ -28,7 +28,7 @@ Descripción de metadatos:
 
 https://catalogodatos.gub.uy/dataset/mides-indicador-14093 
 
-C2. Distribución porcentual de las personas según régimen de tenencia de la vivienda por tramos de edad. Total país.
+#### C2. Distribución porcentual de las personas según régimen de tenencia de la vivienda por tramos de edad. Total país.
 
 Descripción de metadatos:
 
@@ -39,7 +39,7 @@ Descripción de metadatos:
 
 https://catalogodatos.gub.uy/dataset/mides-indicador-12533
 
-C3. Distribución porcentual de los hogares según régimen de tenencia por tipo de hogar. Total país.
+#### C3. Distribución porcentual de los hogares según régimen de tenencia por tipo de hogar. Total país.
 
 Descripción de metadatos:
 
@@ -50,7 +50,7 @@ Descripción de metadatos:
 
 https://catalogodatos.gub.uy/dataset/mides-indicador-12471 
 
-C4. Porcentaje de hogares que destinan más del 30% de sus ingresos al pago de la cuota de compra o de alquiler de la vivienda según quintiles de ingreso per cápita del hogar. Total país. 
+#### C4. Porcentaje de hogares que destinan más del 30% de sus ingresos al pago de la cuota de compra o de alquiler de la vivienda según quintiles de ingreso per cápita del hogar. Total país. 
 
 Descripción de metadatos:
 
@@ -61,7 +61,7 @@ Descripción de metadatos:
 
 https://catalogodatos.gub.uy/dataset/mides-indicador-7787 
 
-C5. Distribución porcentual de los hogares según régimen de tenencia por quintiles de ingreso per cápita del hogar. Total país.
+#### C5. Distribución porcentual de los hogares según régimen de tenencia por quintiles de ingreso per cápita del hogar. Total país.
 
 Descripción de metadatos: 
 
