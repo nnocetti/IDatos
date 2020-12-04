@@ -1,0 +1,18 @@
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ANIMALS="http://www.idatos-group12.com/rdf#">
+
+    <RDF:Bag about="http://www.idatos-group12.com/records">
+        <RDF:li>
+            <homeOwnership>purchase</homeOwnership>
+            <department>Montevideo</department>
+            <year>2018</year>
+            <value>15.6523154637209</value>
+        </RDF:li>
+        <RDF:li>
+            <homeOwnership>rental</homeOwnership>
+            <department>Montevideo</department>
+            <year>2018</year>
+            <value>25.5016973005237</value>
+        </RDF:li>
+    </RDF:Bag>
+</RDF:RDF>
