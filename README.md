@@ -24,7 +24,7 @@ Descripción de metadatos:
 * Relación Compra Alquiler: Describe si la relación es compra o alquiler.  
 * Departamento: El departamento, dentro del Uruguay, asociado a la información.  
 * Año: El año correspondiente a la información  
-* Valor: El porcentaje de compra o alquiler para el departamento en el año indicado.  
+* PROMEDIO(RAI/RCI)-ECH: El porcentaje de compra o alquiler para el departamento en el año indicado.  
 
 https://catalogodatos.gub.uy/dataset/mides-indicador-14093 
 
@@ -35,7 +35,7 @@ Descripción de metadatos:
 * Edad: Franja de edad en la que se basa la información.  
 * Tenencia De Vivienda: Relación del sujeto sobre la vivienda que ocupa.  
 * Año: El año correspondiente a la información.  
-* Valor: Porcentaje de personas en la franja de edad indicada con la tenencia de vivienda indicada en el año indicado.  
+* PROMEDIO(RAI/RCI)-ECH: Porcentaje de personas en la franja de edad indicada con la tenencia de vivienda indicada en el año indicado.  
 
 https://catalogodatos.gub.uy/dataset/mides-indicador-12533
 
@@ -46,7 +46,7 @@ Descripción de metadatos:
 * Tipo de Hogar: Composición del núcleo familiar del hogar.  
 * Tenencia De Vivienda: Relación del hogar sobre la vivienda que ocupa.  
 * Año: El año correspondiente a la información.  
-* Valor: Porcentaje de hogares con la tenencia de vivienda indicada en el año indicado.  
+* PROMEDIO(RAI/RCI)-ECH: Porcentaje de hogares con la tenencia de vivienda indicada en el año indicado.  
 
 https://catalogodatos.gub.uy/dataset/mides-indicador-12471 
 
@@ -57,7 +57,7 @@ Descripción de metadatos:
 * Compra_alquiler: Describe si la relación es compra o alquiler.  
 * Quintiles: Quintil al cual pertenece el hogar.  
 * Año: El año correspondiente a la información.  
-* Valor: Porcentaje de hogares que destinan más del 30% de sus ingresos al pago de la cuota en el quintil y año indicado.  
+* PROMEDIO(RAI/RCI)-ECH: Porcentaje de hogares que destinan más del 30% de sus ingresos al pago de la cuota en el quintil y año indicado.  
 
 https://catalogodatos.gub.uy/dataset/mides-indicador-7787 
 
@@ -68,7 +68,7 @@ Descripción de metadatos:
 * Quintiles: Quintil del hogar.  
 * Tenencia De Vivienda: Relación del sujeto sobre la vivienda que ocupa.  
 * Año: El año correspondiente a la información.  
-* Valor: Porcentaje de hogares con la tenencia de vivienda indicada, en el quintil y año indicado.  
+* PROMEDIO(RAI/RCI)-ECH: Porcentaje de hogares con la tenencia de vivienda indicada, en el quintil y año indicado.  
 
 https://catalogodatos.gub.uy/dataset/mides-indicador-7809 
 
@@ -87,158 +87,158 @@ Un conjunto similar a C3 no se puede obtener desde la ECH porque el atributo Tip
 
 Consulta SQL para generar conjunto correspondiente a los datos de C1
 ```sql
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2019 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2019 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2019_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2019 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2019 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2019_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2018 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2018 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2018_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2018 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2018 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2018_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2017 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2017 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2017_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2017 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2017 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2017_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2016 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2016 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2016_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2016 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2016 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2016_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2015 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2015 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2015_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2015 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2015 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2015_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2014 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2014 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2014_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2014 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2014 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2014_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2013 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2013 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2013_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2013 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2013 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2013_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2012 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2012 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2012_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2012 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2012 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2012_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2011 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2011 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2011_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2011 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2011 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2011_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2010 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2010 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2010_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2010 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2010 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2010_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2009 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2009 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2009_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2009 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2009 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2009_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2008 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2008 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2008_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2008 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2008 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2008_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2007 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2007 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2007_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2007 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2007 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2007_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 UNION
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2006 AS Año, AVG((D7_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2006 AS Año, AVG((D7_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2006_Terceros
 WHERE D7_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2006 AS Año, AVG((D7_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2006 AS Año, AVG((D7_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2006_Terceros
 WHERE (D7_1=1 OR D7_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 ```
 
 Consulta SQL para generar conjunto correspondiente a los datos de C4
@@ -310,14 +310,31 @@ SELECT MAX(YSVL), MIN(YSVL)
 FROM H_2019_Terceros;
 
 ```sql
-SELECT 'Alquiler' AS RelaciónCompraAlquiler, DPTO, 2019 AS Año, AVG((D8_3/YSVL)*100) AS Valor
+SELECT 'Alquiler' AS RelaciónCompraAlquiler, Departamento, 2019 AS Año, AVG((D8_3/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2019_Terceros
 WHERE D8_1=5 AND YSVL <> 0
-GROUP BY DPTO
+GROUP BY Departamento
 UNION
-SELECT 'Compra' AS RelaciónCompraAlquiler, DPTO, 2019 AS Año, AVG((D8_2/YSVL)*100) AS Valor
+SELECT 'Compra' AS RelaciónCompraAlquiler, Departamento, 2019 AS Año, AVG((D8_2/YSVL)*100) AS PROMEDIO(RAI/RCI)-ECH
 FROM H_2019_Terceros
 WHERE (D8_1=1 OR D8_1=3) AND (YSVL <> 0)
-GROUP BY DPTO;
+GROUP BY Departamento;
 
 ```
+
+
+
+Ingreso total del hogar / costo 
+
+
+
+El Ratio Alquiler Ingreso, RAI, es una
+medición del porcentaje del ingreso que
+los hogares inquilinos destinan al pago
+del alquiler. (rental-to-income ratio)
+El Ratio Cuota Ingreso, RCI, es una
+medición del porcentaje del ingreso que
+destinan al pago de la cuota los hogares
+que compraron su vivienda con un
+préstamo. (mortgage-to-income ratio)
+

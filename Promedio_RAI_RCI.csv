@@ -1,0 +1,495 @@
+RelaciónCompraAlquiler;Departamento;Año;PROMEDIO(RAI/RCI)-MIDES;PROMEDIO(RAI/RCI)-ECH;PorcentajeDiferencia
+Alquiler;Artigas;2006;16.1;15.74;2.24
+Compra;Artigas;2006;9.3;10;7.53
+Alquiler;Canelones;2006;18.8;17.31;7.93
+Compra;Canelones;2006;15.5;33.83;118.26
+Alquiler;Cerro Largo;2006;16.4;16.06;2.07
+Compra;Cerro Largo;2006;11.8;11.32;4.07
+Alquiler;Colonia;2006;17.8;17.76;0.22
+Compra;Colonia;2006;14.6;12.95;11.3
+Alquiler;Durazno;2006;16.7;16.45;1.5
+Compra;Durazno;2006;9.8;9.18;6.33
+Alquiler;Flores;2006;17.1;16.49;3.57
+Compra;Flores;2006;12.6;11.68;7.3
+Alquiler;Florida;2006;15.6;14.69;5.83
+Compra;Florida;2006;8.8;7.84;10.91
+Alquiler;Lavalleja;2006;17.7;16.27;8.08
+Compra;Lavalleja;2006;12.2;9.96;18.36
+Alquiler;Maldonado;2006;19.7;19.15;2.79
+Compra;Maldonado;2006;14.8;15.65;5.74
+Alquiler;Montevideo;2006;21.1;20.74;1.71
+Compra;Montevideo;2006;16;15.96;0.25
+Alquiler;Paysandu;2006;19.5;17.63;9.59
+Compra;Paysandu;2006;11.9;11.12;6.55
+Alquiler;Rio Negro;2006;17;14.89;12.41
+Compra;Rio Negro;2006;10.8;9.46;12.41
+Alquiler;Rivera;2006;15.2;14.47;4.8
+Compra;Rivera;2006;11.3;10.34;8.5
+Alquiler;Rocha;2006;16.7;15.91;4.73
+Compra;Rocha;2006;12.1;11.94;1.32
+Alquiler;Salto;2006;17.1;16.35;4.39
+Compra;Salto;2006;11.8;10.33;12.46
+Alquiler;San José;2006;17.8;15.96;10.34
+Compra;San José;2006;13.7;10.92;20.29
+Alquiler;Soriano;2006;16.9;15.41;8.82
+Compra;Soriano;2006;10.8;9.35;13.43
+Alquiler;Tacuarembó;2006;17.9;17.69;1.17
+Compra;Tacuarembó;2006;12.9;12.19;5.5
+Alquiler;Treinta y Tres;2006;15.5;14.58;5.94
+Compra;Treinta y Tres;2006;10.9;9.61;11.83
+Alquiler;Artigas;2007;13.8;13.22;4.2
+Compra;Artigas;2007;8.6;8.09;5.93
+Alquiler;Canelones;2007;17.8;17.84;0.22
+Compra;Canelones;2007;15.2;29.3;92.76
+Alquiler;Cerro Largo;2007;15.6;15.7;0.64
+Compra;Cerro Largo;2007;10.8;10.61;1.76
+Alquiler;Colonia;2007;17.5;17.51;0.06
+Compra;Colonia;2007;13.2;13.3;0.76
+Alquiler;Durazno;2007;14.3;14.1;1.4
+Compra;Durazno;2007;9.6;9.52;0.83
+Alquiler;Flores;2007;16;15.12;5.5
+Compra;Flores;2007;11;10.34;6
+Alquiler;Florida;2007;16.6;17.22;3.73
+Compra;Florida;2007;8.8;9.53;8.3
+Alquiler;Lavalleja;2007;15;15.14;0.93
+Compra;Lavalleja;2007;9.7;10.12;4.33
+Alquiler;Maldonado;2007;18.6;18.43;0.91
+Compra;Maldonado;2007;12.4;12.23;1.37
+Alquiler;Montevideo;2007;20.2;20.3;0.5
+Compra;Montevideo;2007;15;14.9;0.67
+Alquiler;Paysandu;2007;17.6;20.46;16.25
+Compra;Paysandu;2007;11.1;10.72;3.42
+Alquiler;Rio Negro;2007;18.8;21.66;15.21
+Compra;Rio Negro;2007;11.3;11.21;0.8
+Alquiler;Rivera;2007;16.5;16.5;0
+Compra;Rivera;2007;10.5;10.4;0.95
+Alquiler;Rocha;2007;15.9;15.83;0.44
+Compra;Rocha;2007;15.6;15.3;1.92
+Alquiler;Salto;2007;15.9;17.4;9.43
+Compra;Salto;2007;11.8;11.74;0.51
+Alquiler;San José;2007;15.6;16.33;4.68
+Compra;San José;2007;11.2;11.38;1.61
+Alquiler;Soriano;2007;15.9;15.85;0.31
+Compra;Soriano;2007;10.2;10.28;0.78
+Alquiler;Tacuarembó;2007;16.6;16.74;0.84
+Compra;Tacuarembó;2007;13.1;13.32;1.68
+Alquiler;Treinta y Tres;2007;14.9;14.5;2.68
+Compra;Treinta y Tres;2007;10.9;11.56;6.06
+Alquiler;Artigas;2008;14;13.73;1.93
+Compra;Artigas;2008;7.1;7.2;1.41
+Alquiler;Canelones;2008;16.5;16.39;0.67
+Compra;Canelones;2008;12;11.05;7.92
+Alquiler;Cerro Largo;2008;14.5;14.5;0
+Compra;Cerro Largo;2008;10.4;10.49;0.87
+Alquiler;Colonia;2008;17.1;17.03;0.41
+Compra;Colonia;2008;11.3;12.74;12.74
+Alquiler;Durazno;2008;15.4;15.14;1.69
+Compra;Durazno;2008;9.7;9.76;0.62
+Alquiler;Flores;2008;16.2;15.64;3.46
+Compra;Flores;2008;9.3;9.16;1.51
+Alquiler;Florida;2008;11.2;12.59;12.41
+Compra;Florida;2008;9.1;6.57;27.8
+Alquiler;Lavalleja;2008;15.5;20.74;33.81
+Compra;Lavalleja;2008;10.8;11.09;2.69
+Alquiler;Maldonado;2008;17.6;17.38;1.25
+Compra;Maldonado;2008;10.5;10.97;4.48
+Alquiler;Montevideo;2008;19.4;21.16;9.07
+Compra;Montevideo;2008;14.1;14.39;2.06
+Alquiler;Paysandu;2008;17.2;16.98;1.28
+Compra;Paysandu;2008;7.7;7.91;2.73
+Alquiler;Rio Negro;2008;17;17.2;1.18
+Compra;Rio Negro;2008;8.3;8.72;5.06
+Alquiler;Rivera;2008;14.8;14.47;2.23
+Compra;Rivera;2008;9.4;10.01;6.49
+Alquiler;Rocha;2008;13.9;13.69;1.51
+Compra;Rocha;2008;11.1;10.93;1.53
+Alquiler;Salto;2008;16;15.96;0.25
+Compra;Salto;2008;11.6;11.42;1.55
+Alquiler;San José;2008;15.3;15.34;0.26
+Compra;San José;2008;10.3;10.56;2.52
+Alquiler;Soriano;2008;13.6;14.91;9.63
+Compra;Soriano;2008;9.3;9.64;3.66
+Alquiler;Tacuarembó;2008;15.4;15.59;1.23
+Compra;Tacuarembó;2008;12.9;12.52;2.95
+Alquiler;Treinta y Tres;2008;14;13.88;0.86
+Compra;Treinta y Tres;2008;9.2;9.96;8.26
+Alquiler;Artigas;2009;15.8;14.73;6.77
+Compra;Artigas;2009;6.9;7.12;3.19
+Alquiler;Canelones;2009;16.2;16.34;0.86
+Compra;Canelones;2009;12.2;12.11;0.74
+Alquiler;Cerro Largo;2009;14.6;13.76;5.75
+Compra;Cerro Largo;2009;11.1;10.48;5.59
+Alquiler;Colonia;2009;17.2;16.39;4.71
+Compra;Colonia;2009;12.6;12.82;1.75
+Alquiler;Durazno;2009;13.3;12.59;5.34
+Compra;Durazno;2009;8.9;8.62;3.15
+Alquiler;Flores;2009;17.8;16.16;9.21
+Compra;Flores;2009;9.4;9.8;4.26
+Alquiler;Florida;2009;15.3;15.92;4.05
+Compra;Florida;2009;6.2;9.04;45.81
+Alquiler;Lavalleja;2009;18;17.57;2.39
+Compra;Lavalleja;2009;9.4;9.59;2.02
+Alquiler;Maldonado;2009;18.7;18.75;0.27
+Compra;Maldonado;2009;13.5;13.06;3.26
+Alquiler;Montevideo;2009;21.7;21.33;1.71
+Compra;Montevideo;2009;14.3;14.21;0.63
+Alquiler;Paysandu;2009;19.5;18.16;6.87
+Compra;Paysandu;2009;11.1;10.89;1.89
+Alquiler;Rio Negro;2009;18.6;16.3;12.37
+Compra;Rio Negro;2009;10.1;10.08;0.2
+Alquiler;Rivera;2009;14.6;14.36;1.64
+Compra;Rivera;2009;10.4;10.55;1.44
+Alquiler;Rocha;2009;14.7;13.62;7.35
+Compra;Rocha;2009;8.1;8.92;10.12
+Alquiler;Salto;2009;16.7;15.53;7.01
+Compra;Salto;2009;8.7;9.54;9.66
+Alquiler;San José;2009;15.5;14.88;4
+Compra;San José;2009;9.5;10.11;6.42
+Alquiler;Soriano;2009;15.2;14.6;3.95
+Compra;Soriano;2009;9.2;9.59;4.24
+Alquiler;Tacuarembó;2009;17.4;16.83;3.28
+Compra;Tacuarembó;2009;9.4;10.52;11.91
+Alquiler;Treinta y Tres;2009;15.2;14.49;4.67
+Compra;Treinta y Tres;2009;13.3;13.21;0.68
+Alquiler;Artigas;2010;25.7;25.58;0.47
+Compra;Artigas;2010;6.3;7.51;19.21
+Alquiler;Canelones;2010;16.1;16.09;0.06
+Compra;Canelones;2010;12.2;12.22;0.16
+Alquiler;Cerro Largo;2010;15.2;14.91;1.91
+Compra;Cerro Largo;2010;9.2;9.28;0.87
+Alquiler;Colonia;2010;15.7;15.45;1.59
+Compra;Colonia;2010;12;14.26;18.83
+Alquiler;Durazno;2010;15.2;14.75;2.96
+Compra;Durazno;2010;7.5;8.66;15.47
+Alquiler;Flores;2010;15.3;15.82;3.4
+Compra;Flores;2010;10.2;10.52;3.14
+Alquiler;Florida;2010;17.1;16.56;3.16
+Compra;Florida;2010;6.7;9.22;37.61
+Alquiler;Lavalleja;2010;13.8;13.88;0.58
+Compra;Lavalleja;2010;8.8;10.8;22.73
+Alquiler;Maldonado;2010;19.3;18.71;3.06
+Compra;Maldonado;2010;11.6;11.63;0.26
+Alquiler;Montevideo;2010;20.9;20.73;0.81
+Compra;Montevideo;2010;13.9;14.06;1.15
+Alquiler;Paysandu;2010;17.5;17.98;2.74
+Compra;Paysandu;2010;7.1;8.08;13.8
+Alquiler;Rio Negro;2010;15.3;15.35;0.33
+Compra;Rio Negro;2010;7.4;9.53;28.78
+Alquiler;Rivera;2010;13.7;13.04;4.82
+Compra;Rivera;2010;7;6.47;7.57
+Alquiler;Rocha;2010;14.1;14.04;0.43
+Compra;Rocha;2010;8.4;9.22;9.76
+Alquiler;Salto;2010;16.5;15.75;4.55
+Compra;Salto;2010;8.1;9.87;21.85
+Alquiler;San José;2010;16;14.46;9.62
+Compra;San José;2010;8.5;9.51;11.88
+Alquiler;Soriano;2010;16;15.65;2.19
+Compra;Soriano;2010;8.2;10.1;23.17
+Alquiler;Tacuarembó;2010;16.1;15.53;3.54
+Compra;Tacuarembó;2010;9.9;12.18;23.03
+Alquiler;Treinta y Tres;2010;14.3;13.53;5.38
+Compra;Treinta y Tres;2010;9.3;9.77;5.05
+Alquiler;Artigas;2011;15.2;14.73;3.09
+Compra;Artigas;2011;6.8;7.08;4.12
+Alquiler;Canelones;2011;16.5;15.9;3.64
+Compra;Canelones;2011;12.4;12.31;0.73
+Alquiler;Cerro Largo;2011;16.3;16.34;0.25
+Compra;Cerro Largo;2011;9.9;9.28;6.26
+Alquiler;Colonia;2011;17.1;17.02;0.47
+Compra;Colonia;2011;12.6;13.16;4.44
+Alquiler;Durazno;2011;15.7;15.71;0.06
+Compra;Durazno;2011;8.2;8.25;0.61
+Alquiler;Flores;2011;16.3;15.98;1.96
+Compra;Flores;2011;10.2;11.13;9.12
+Alquiler;Florida;2011;16.1;14.72;8.57
+Compra;Florida;2011;8.1;8.53;5.31
+Alquiler;Lavalleja;2011;17;15.86;6.71
+Compra;Lavalleja;2011;12.8;11.8;7.81
+Alquiler;Maldonado;2011;19.5;19.3;1.03
+Compra;Maldonado;2011;11.1;11.55;4.05
+Alquiler;Montevideo;2011;21.4;21.46;0.28
+Compra;Montevideo;2011;14.1;14.16;0.43
+Alquiler;Paysandu;2011;17.9;16.57;7.43
+Compra;Paysandu;2011;9.9;9.58;3.23
+Alquiler;Rio Negro;2011;15.8;13.36;15.44
+Compra;Rio Negro;2011;10.2;9.8;3.92
+Alquiler;Rivera;2011;16.2;14.73;9.07
+Compra;Rivera;2011;10.4;9.3;10.58
+Alquiler;Rocha;2011;13.9;13.52;2.73
+Compra;Rocha;2011;9.3;9.57;2.9
+Alquiler;Salto;2011;18.3;17.07;6.72
+Compra;Salto;2011;11.1;10.25;7.66
+Alquiler;San José;2011;15.4;14.73;4.35
+Compra;San José;2011;11.6;12;3.45
+Alquiler;Soriano;2011;17.2;16.8;2.33
+Compra;Soriano;2011;7.9;7.65;3.16
+Alquiler;Tacuarembó;2011;19;18.67;1.74
+Compra;Tacuarembó;2011;10.2;10.19;0.1
+Alquiler;Treinta y Tres;2011;14.5;14.17;2.28
+Compra;Treinta y Tres;2011;9.7;9.72;0.21
+Alquiler;Artigas;2012;16.1;15.31;4.91
+Compra;Artigas;2012;8.1;6.34;21.73
+Alquiler;Canelones;2012;17.7;17.28;2.37
+Compra;Canelones;2012;13.1;13.29;1.45
+Alquiler;Cerro Largo;2012;17.3;16.72;3.35
+Compra;Cerro Largo;2012;8.8;7.12;19.09
+Alquiler;Colonia;2012;19;18.15;4.47
+Compra;Colonia;2012;10.9;10.44;4.22
+Alquiler;Durazno;2012;20.2;19.13;5.3
+Compra;Durazno;2012;7.9;7.87;0.38
+Alquiler;Flores;2012;18.2;17.34;4.73
+Compra;Flores;2012;11.3;11.3;0
+Alquiler;Florida;2012;18.4;17.57;4.51
+Compra;Florida;2012;8.8;7.38;16.14
+Alquiler;Lavalleja;2012;16.1;18.15;12.73
+Compra;Lavalleja;2012;11.8;11.54;2.2
+Alquiler;Maldonado;2012;20.1;19.95;0.75
+Compra;Maldonado;2012;11.4;11.82;3.68
+Alquiler;Montevideo;2012;21.5;22.27;3.58
+Compra;Montevideo;2012;13.5;14.08;4.3
+Alquiler;Paysandu;2012;18.7;18.56;0.75
+Compra;Paysandu;2012;10.4;9.23;11.25
+Alquiler;Rio Negro;2012;18.6;16.44;11.61
+Compra;Rio Negro;2012;7.7;6.32;17.92
+Alquiler;Rivera;2012;17.7;17.14;3.16
+Compra;Rivera;2012;9.5;8.8;7.37
+Alquiler;Rocha;2012;15.8;15.84;0.25
+Compra;Rocha;2012;9.4;9.07;3.51
+Alquiler;Salto;2012;18.4;17.29;6.03
+Compra;Salto;2012;10.9;8.76;19.63
+Alquiler;San José;2012;16;14.27;10.81
+Compra;San José;2012;9.8;9.16;6.53
+Alquiler;Soriano;2012;17.3;16.01;7.46
+Compra;Soriano;2012;10.9;10.18;6.61
+Alquiler;Tacuarembó;2012;20.4;20.09;1.52
+Compra;Tacuarembó;2012;9.2;8.07;12.28
+Alquiler;Treinta y Tres;2012;15.6;15.49;0.71
+Compra;Treinta y Tres;2012;13.1;11.3;13.74
+Alquiler;Artigas;2013;18.9;20.3;7.41
+Compra;Artigas;2013;6.4;6.65;3.91
+Alquiler;Canelones;2013;17.1;17.55;2.63
+Compra;Canelones;2013;11.1;11.61;4.59
+Alquiler;Cerro Largo;2013;15.9;16.03;0.82
+Compra;Cerro Largo;2013;7.1;7.11;0.14
+Alquiler;Colonia;2013;17.4;16.91;2.82
+Compra;Colonia;2013;9.2;9.46;2.83
+Alquiler;Durazno;2013;16.8;16.38;2.5
+Compra;Durazno;2013;8.3;8.12;2.17
+Alquiler;Flores;2013;15.5;14.87;4.06
+Compra;Flores;2013;8.3;8.34;0.48
+Alquiler;Florida;2013;16.5;14.52;12
+Compra;Florida;2013;6.4;6.59;2.97
+Alquiler;Lavalleja;2013;16.5;16.88;2.3
+Compra;Lavalleja;2013;10.5;11.04;5.14
+Alquiler;Maldonado;2013;20.2;20.44;1.19
+Compra;Maldonado;2013;11;12.23;11.18
+Alquiler;Montevideo;2013;21.9;23.62;7.85
+Compra;Montevideo;2013;13.8;14.22;3.04
+Alquiler;Paysandu;2013;17.3;17.23;0.4
+Compra;Paysandu;2013;7.1;7.39;4.08
+Alquiler;Rio Negro;2013;15.3;14.14;7.58
+Compra;Rio Negro;2013;9.2;9.69;5.33
+Alquiler;Rivera;2013;17.7;17.74;0.23
+Compra;Rivera;2013;8.4;8.35;0.6
+Alquiler;Rocha;2013;15.6;16.84;7.95
+Compra;Rocha;2013;11.2;12.1;8.04
+Alquiler;Salto;2013;18.5;18.49;0.05
+Compra;Salto;2013;8;8.71;8.88
+Alquiler;San José;2013;16.5;15.61;5.39
+Compra;San José;2013;6.9;7.49;8.55
+Alquiler;Soriano;2013;15.8;15.69;0.7
+Compra;Soriano;2013;6.2;7.8;25.81
+Alquiler;Tacuarembó;2013;18.1;17.47;3.48
+Compra;Tacuarembó;2013;10;10.23;2.3
+Alquiler;Treinta y Tres;2013;17.2;17.15;0.29
+Compra;Treinta y Tres;2013;8.7;9.82;12.87
+Alquiler;Artigas;2014;17.2;17.19;0.06
+Compra;Artigas;2014;4.3;4.76;10.7
+Alquiler;Canelones;2014;17.6;17.42;1.02
+Compra;Canelones;2014;11.9;11.94;0.34
+Alquiler;Cerro Largo;2014;17.6;17.69;0.51
+Compra;Cerro Largo;2014;7.6;8.39;10.39
+Alquiler;Colonia;2014;20;19.84;0.8
+Compra;Colonia;2014;12.2;12.63;3.52
+Alquiler;Durazno;2014;16.2;16.96;4.69
+Compra;Durazno;2014;5.7;6.11;7.19
+Alquiler;Flores;2014;17.9;17.01;4.97
+Compra;Flores;2014;7.6;8.49;11.71
+Alquiler;Florida;2014;18.2;18.49;1.59
+Compra;Florida;2014;6.5;7.09;9.08
+Alquiler;Lavalleja;2014;17;19.98;17.53
+Compra;Lavalleja;2014;12;12.57;4.75
+Alquiler;Maldonado;2014;20.8;20.79;0.05
+Compra;Maldonado;2014;11;11.38;3.45
+Alquiler;Montevideo;2014;22.5;23.17;2.98
+Compra;Montevideo;2014;14.3;14.6;2.1
+Alquiler;Paysandu;2014;17.7;17.35;1.98
+Compra;Paysandu;2014;8.6;9.85;14.53
+Alquiler;Rio Negro;2014;15.9;14.07;11.51
+Compra;Rio Negro;2014;7.5;8.4;12
+Alquiler;Rivera;2014;17.8;17.86;0.34
+Compra;Rivera;2014;10;10.73;7.3
+Alquiler;Rocha;2014;15.4;15.47;0.45
+Compra;Rocha;2014;8.7;9.41;8.16
+Alquiler;Salto;2014;18.5;18.52;0.11
+Compra;Salto;2014;8;8.5;6.25
+Alquiler;San José;2014;15.6;15.41;1.22
+Compra;San José;2014;7.8;8.65;10.9
+Alquiler;Soriano;2014;16;16.49;3.06
+Compra;Soriano;2014;10.1;10.77;6.63
+Alquiler;Tacuarembó;2014;18.5;18.37;0.7
+Compra;Tacuarembó;2014;8;8.61;7.62
+Alquiler;Treinta y Tres;2014;16.4;16.18;1.34
+Compra;Treinta y Tres;2014;10.5;12.43;18.38
+Alquiler;Artigas;2015;16.2;15.07;6.98
+Compra;Artigas;2015;7.1;7.1;0
+Alquiler;Canelones;2015;19.2;18.88;1.67
+Compra;Canelones;2015;12.4;12.53;1.05
+Alquiler;Cerro Largo;2015;19;19;0
+Compra;Cerro Largo;2015;9.9;9.72;1.82
+Alquiler;Colonia;2015;20;19.88;0.6
+Compra;Colonia;2015;12.3;12.56;2.11
+Alquiler;Durazno;2015;19.1;18.72;1.99
+Compra;Durazno;2015;8.9;8.81;1.01
+Alquiler;Flores;2015;18.2;17.55;3.57
+Compra;Flores;2015;10.5;10.52;0.19
+Alquiler;Florida;2015;17.8;17.94;0.79
+Compra;Florida;2015;6;6.2;3.33
+Alquiler;Lavalleja;2015;18.8;19.54;3.94
+Compra;Lavalleja;2015;10.6;10.85;2.36
+Alquiler;Maldonado;2015;21.3;21.65;1.64
+Compra;Maldonado;2015;12.4;12.56;1.29
+Alquiler;Montevideo;2015;23.2;25.3;9.05
+Compra;Montevideo;2015;14.3;14.64;2.38
+Alquiler;Paysandu;2015;18.7;19.11;2.19
+Compra;Paysandu;2015;9.4;9.49;0.96
+Alquiler;Rio Negro;2015;18.4;17.1;7.07
+Compra;Rio Negro;2015;9.9;9.98;0.81
+Alquiler;Rivera;2015;19.8;19.29;2.58
+Compra;Rivera;2015;8;8.19;2.37
+Alquiler;Rocha;2015;16.5;16.33;1.03
+Compra;Rocha;2015;10.8;10.15;6.02
+Alquiler;Salto;2015;18;17.88;0.67
+Compra;Salto;2015;8.2;8.15;0.61
+Alquiler;San José;2015;16.6;16.15;2.71
+Compra;San José;2015;10.4;10.7;2.88
+Alquiler;Soriano;2015;18.1;17.51;3.26
+Compra;Soriano;2015;9.4;9.38;0.21
+Alquiler;Tacuarembó;2015;19.4;20.89;7.68
+Compra;Tacuarembó;2015;10.9;10.44;4.22
+Alquiler;Treinta y Tres;2015;19;18.3;3.68
+Compra;Treinta y Tres;2015;11.6;25.24;117.59
+Alquiler;Artigas;2016;18;18.02;0.11
+Compra;Artigas;2016;9.9;9.86;0.4
+Alquiler;Canelones;2016;20.1;27.42;36.42
+Compra;Canelones;2016;13.6;13.84;1.76
+Alquiler;Cerro Largo;2016;18.2;18.75;3.02
+Compra;Cerro Largo;2016;7.4;7.43;0.41
+Alquiler;Colonia;2016;20.1;20.03;0.35
+Compra;Colonia;2016;10.8;11.2;3.7
+Alquiler;Durazno;2016;18.8;18.54;1.38
+Compra;Durazno;2016;7.1;7.3;2.82
+Alquiler;Flores;2016;18.2;18.43;1.26
+Compra;Flores;2016;7;6.74;3.71
+Alquiler;Florida;2016;19.5;18.82;3.49
+Compra;Florida;2016;10.7;11.39;6.45
+Alquiler;Lavalleja;2016;16.1;16.26;0.99
+Compra;Lavalleja;2016;9.4;9.23;1.81
+Alquiler;Maldonado;2016;21.4;23.2;8.41
+Compra;Maldonado;2016;11.2;11.79;5.27
+Alquiler;Montevideo;2016;22.7;23.73;4.54
+Compra;Montevideo;2016;14.4;15.28;6.11
+Alquiler;Paysandu;2016;18.7;18.59;0.59
+Compra;Paysandu;2016;10.5;11.22;6.86
+Alquiler;Rio Negro;2016;16.2;13.24;18.27
+Compra;Rio Negro;2016;10.4;10.98;5.58
+Alquiler;Rivera;2016;19.1;19.26;0.84
+Compra;Rivera;2016;11.8;11.93;1.1
+Alquiler;Rocha;2016;17.9;19.33;7.99
+Compra;Rocha;2016;12.4;12.59;1.53
+Alquiler;Salto;2016;18.1;18.92;4.53
+Compra;Salto;2016;9.3;9.97;7.2
+Alquiler;San José;2016;17.7;17.44;1.47
+Compra;San José;2016;8.6;9.02;4.88
+Alquiler;Soriano;2016;19;18.24;4
+Compra;Soriano;2016;11.7;12.41;6.07
+Alquiler;Tacuarembó;2016;18;17.81;1.06
+Compra;Tacuarembó;2016;10.2;10.02;1.76
+Alquiler;Treinta y Tres;2016;17.4;17.43;0.17
+Compra;Treinta y Tres;2016;10.4;11.05;6.25
+Alquiler;Artigas;2017;17.1;17.04;0.35
+Compra;Artigas;2017;7.1;7.34;3.38
+Alquiler;Canelones;2017;19.6;20.58;5
+Compra;Canelones;2017;12.4;13.23;6.69
+Alquiler;Cerro Largo;2017;18.6;18.73;0.7
+Compra;Cerro Largo;2017;7.5;7.61;1.47
+Alquiler;Colonia;2017;18.4;18.82;2.28
+Compra;Colonia;2017;13.1;13.42;2.44
+Alquiler;Durazno;2017;19.3;19.06;1.24
+Compra;Durazno;2017;7.9;8.24;4.3
+Alquiler;Flores;2017;20.7;20.86;0.77
+Compra;Flores;2017;12.1;11.94;1.32
+Alquiler;Florida;2017;18;17.75;1.39
+Compra;Florida;2017;8;8.37;4.62
+Alquiler;Lavalleja;2017;18.8;19.38;3.09
+Compra;Lavalleja;2017;10.4;10.75;3.37
+Alquiler;Maldonado;2017;20.4;20.61;1.03
+Compra;Maldonado;2017;10.7;11.11;3.83
+Alquiler;Montevideo;2017;23.3;24.13;3.56
+Compra;Montevideo;2017;15.5;16.01;3.29
+Alquiler;Paysandu;2017;18.4;18.75;1.9
+Compra;Paysandu;2017;8.3;8.5;2.41
+Alquiler;Rio Negro;2017;15.8;15.45;2.22
+Compra;Rio Negro;2017;9;32.83;264.78
+Alquiler;Rivera;2017;18;17.87;0.72
+Compra;Rivera;2017;9.7;9.68;0.21
+Alquiler;Rocha;2017;16;17.49;9.31
+Compra;Rocha;2017;11.2;11.37;1.52
+Alquiler;Salto;2017;18.7;18.37;1.76
+Compra;Salto;2017;8.6;8.45;1.74
+Alquiler;San José;2017;16;15.49;3.19
+Compra;San José;2017;9.2;9.23;0.33
+Alquiler;Soriano;2017;17.1;16.58;3.04
+Compra;Soriano;2017;9.3;9.48;1.94
+Alquiler;Tacuarembó;2017;18.3;19.4;6.01
+Compra;Tacuarembó;2017;13.5;13.75;1.85
+Alquiler;Treinta y Tres;2017;15.6;14.77;5.32
+Compra;Treinta y Tres;2017;12.9;13.6;5.43
+Alquiler;Artigas;2018;19.6;19.29;1.58
+Compra;Artigas;2018;7;7.01;0.14
+Alquiler;Canelones;2018;20.5;20.38;0.59
+Compra;Canelones;2018;12.4;12.92;4.19
+Alquiler;Cerro Largo;2018;19.2;19.65;2.34
+Compra;Cerro Largo;2018;10.7;10.95;2.34
+Alquiler;Colonia;2018;18.5;18.59;0.49
+Compra;Colonia;2018;11.3;11.52;1.95
+Alquiler;Durazno;2018;18.1;18.08;0.11
+Compra;Durazno;2018;9.4;9.2;2.13
+Alquiler;Flores;2018;18.3;16.98;7.21
+Compra;Flores;2018;9.9;9.83;0.71
+Alquiler;Florida;2018;17.1;16.66;2.57
+Compra;Florida;2018;8.3;9.18;10.6
+Alquiler;Lavalleja;2018;19.5;18.73;3.95
+Compra;Lavalleja;2018;10.6;11.33;6.89
+Alquiler;Maldonado;2018;21;22.31;6.24
+Compra;Maldonado;2018;11.9;14.7;23.53
+Alquiler;Montevideo;2018;24.2;25.5;5.37
+Compra;Montevideo;2018;15.1;15.65;3.64
+Alquiler;Paysandu;2018;17.8;18.02;1.24
+Compra;Paysandu;2018;10.5;11.63;10.76
+Alquiler;Rio Negro;2018;18.3;16.12;11.91
+Compra;Rio Negro;2018;11.2;11.85;5.8
+Alquiler;Rivera;2018;19.5;19.97;2.41
+Compra;Rivera;2018;10.9;10.64;2.39
+Alquiler;Rocha;2018;16.8;17.02;1.31
+Compra;Rocha;2018;11.9;12.68;6.55
+Alquiler;Salto;2018;18.2;18.17;0.16
+Compra;Salto;2018;9.3;9.43;1.4
+Alquiler;San José;2018;17.3;17.81;2.95
+Compra;San José;2018;9.9;10.55;6.57
+Alquiler;Soriano;2018;16.8;17.37;3.39
+Compra;Soriano;2018;9.5;10.19;7.26
+Alquiler;Tacuarembó;2018;19.2;19.7;2.6
+Compra;Tacuarembó;2018;11;11.39;3.55
+Alquiler;Treinta y Tres;2018;18;18.3;1.67
+Compra;Treinta y Tres;2018;14.2;14.64;3.1
