@@ -338,3 +338,4 @@ destinan al pago de la cuota los hogares
 que compraron su vivienda con un
 préstamo. (mortgage-to-income ratio)
 
+RDF Repository URL: http://192.168.11.125:7200/repositories/IDatosGroup12
