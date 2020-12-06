@@ -1,0 +1,63 @@
+{
+    "atributos": [
+        {
+            "descripcion": "Describe si la relación del núcleo familiar con la vivienda es de compra o alquiler",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "RelaciónCompraAlquiler"
+        },
+        {
+            "descripcion": "Departamento de Uruguay",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Departamento"
+        },
+        {
+            "descripcion": "Año desde 2006 a 2018",
+            "informacionAdicional": "",
+            "tipoDeDato": "Number",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Año"
+        },
+        {
+            "descripcion": "Valor del promedio RAI/RCI publicado por el MIDES",
+            "informacionAdicional": "El Ratio Alquiler Ingreso (rental-to-income ratio, RAI), es una medición del porcentaje del ingreso que los hogares inquilinos destinan al pago del alquiler. El Ratio Cuota Ingreso (mortgage-to-income ratio, RCI) es una medición del porcentaje del ingreso que destinan al pago de la cuota los hogares que compraron su vivienda con un préstamo.",
+            "tipoDeDato": "Number",
+            "recursoRelacionado": "Indicador 14093 del Catálogo de datos abiertos. Relación cuota de compra o cuota alquiler de la vivienda e ingresos del hogar según departamento. Total país https://catalogodatos.gub.uy/dataset/mides-indicador-14093 ",
+            "nombreDeAtributo": "Promedio_RAI_RCI-MIDES"
+        },
+        {
+            "descripcion": "Valor calculado a partir de los datos publicados en la ECH. El valor se calcula como el promedio por departamento del monto de la cuota compra/alquiler dividido sobre el monto total de los ingresos del hogar, multiplicado por cien.",
+            "informacionAdicional": "El Ratio Alquiler Ingreso (rental-to-income ratio, RAI), es una medición del porcentaje del ingreso que los hogares inquilinos destinan al pago del alquiler. El Ratio Cuota Ingreso (mortgage-to-income ratio, RCI) es una medición del porcentaje del ingreso que destinan al pago de la cuota los hogares que compraron su vivienda con un préstamo.",
+            "tipoDeDato": "Number",
+            "recursoRelacionado": "Encuesta Continua de Hogares. Recuperado del sitio web del INE https://www.ine.gub.uy/web/guest/encuesta-continua-de-hogares1 ",
+            "nombreDeAtributo": "Promedio_RAI_RCI-ECH"
+        },
+        {
+            "descripcion": "Porcentaje de diferencia de los atributos Promedio_RAI_RCI-MIDES y Promedio_RAI_RCI-ECH ",
+            "informacionAdicional": "El porcentaje de diferencia se calcula como el valor absoluto de la diferencia entre Promedio_RAI_RCI-MIDES y Promedio_RAI_RCI-ECH, sobre el Promedio_RAI_RCI-MIDES, por cien.",
+            "tipoDeDato": "Number",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "PorcentajeDiferencia"
+        }
+
+    ],
+    "titulo": "Metadatos de Porcentaje de diferencia del promedio RAI/RCI de MIDES y ECH",
+    "descripcion": "Porcentaje de diferencia del promedio RAI/RCI publicado por el MIDES en el Catálogo de Datos abiertos, y del promedio RAI/RCI calculado en base a datos de la ECH publicados por el INE",
+    "unidad": "Porcentaje",
+    "fuentes": [
+      {
+        "nombreDeFuente": "MIDES Relación cuota de compra o cuota alquiler de la vivienda e ingresos del hogar según departamento. Total país",
+        "enlace": "https://catalogodatos.gub.uy/dataset/mides-indicador-14093",
+        "fechaUltimoAcceso": "6 de Diciembre de 2020"
+      },
+      {
+        "nombreDeFuente": "INE Encuesta Continua de Hogares", 
+        "enlace": "https://www.ine.gub.uy/web/guest/encuesta-continua-de-hogares1",
+        "fechaUltimoAcceso": "6 de Diciembre de 2020"
+      }
+    ] 
+    
+}
