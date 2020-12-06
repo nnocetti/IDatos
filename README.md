@@ -39,7 +39,7 @@ El Ratio Cuota Ingreso, RCI, es una medición del porcentaje del ingreso que des
 
 Planteamos tomar como base la Encuesta continua de Hogares del INE https://www.ine.gub.uy/web/guest/encuesta-continua-de-hogares1, ECH de ahora en adelante e intentar verificar los datos presentados en el conjunto C1 realizado por el Mides.
 
-### Trabajo
+### Implementación
 
 Integramos las ECH de los diferentes años en una unica base de datos y realizamos la consulta SQL qye se indica en el anexo para obtener el RAI/RCI en cada caso.  
 
