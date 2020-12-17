@@ -1,3 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Tuplas>
 <Promedio_RAI_RCI>
 <RelaciónCompraAlquiler>Alquiler</RelaciónCompraAlquiler>
 <Departamento>Artigas</Departamento>
@@ -3950,3 +3952,4 @@
 <Promedio_RAI_RCI-ECH>14.64</Promedio_RAI_RCI-ECH>
 <PorcentajeDiferencia>3.1</PorcentajeDiferencia>
 </Promedio_RAI_RCI>
+</Tuplas>
